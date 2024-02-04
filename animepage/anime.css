@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    /* height: 140vh; */
+    max-width: 95%;
+    margin: auto ;
+    padding: 2rem;
+}
+
+#heading{
+    color: orange;
+}
+h1{
+   display: inline ;
+}
+.header{
+    width: 100%;
+    display: flex; 
+    justify-content: flex-start;
+    gap: 2rem; 
+    align-items: center;
+}
+#anime{
+    color: orange;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+.navicons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1.5rem;
+}
+#world{
+    height: 30px;
+    width: 30px;
+}
+#discord{
+    height: 30px;
+    width: 30px;
+}
+
+/* Headings and image styling */
+
+.bar{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.7rem;
+}
+.heading div{
+    display: inline-block;
+    gap: 2rem;
+    height:40px;
+    width: 8px;
+    background-color: rgb(238, 163, 23);
+    border-radius: 10px;
+}
+.heading p{
+    font-size: 30px;
+    /* display: inline; */
+    color: white;
+}
+
+.pictures{
+    margin-top: 40px;
+    max-width: 100%;
+    height: 370px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    /* grid-template-rows: auto; */
+
+    gap: 2.5rem;
+    
+}
+.pictures img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.images{
+    height: 250px;
+    width: 200px;
+    margin-top: 1.2rem;
+}
+
+#menu-bar{
+    display: none;
+}
+.options-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
