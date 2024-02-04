@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: 95%;
+    margin: auto ;
+    padding: 2rem;
+}
+
+#heading{
+    color: orange;
+}
+h1{
+   display: inline ;
+}
+.header{
+    width: 100%;
+    display: flex; 
+    justify-content: flex-start;
+    gap: 2rem; 
+    align-items: center;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.navicons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1.5rem;
+}
+#world{
+    height: 30px;
+    width: 30px;
+}
+#discord{
+    height: 30px;
+    width: 30px;
+}
+
+/* Headings and image styling */
+.options-bar a:hover{
+    color: orange;
+}
+.bar{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.7rem;
+}
+.heading div{
+    display: inline-block;
+    gap: 2rem;
+    height:40px;
+    width: 8px;
+    background-color: rgb(238, 163, 23);
+    border-radius: 10px;
+}
+.heading p{
+    font-size: 30px;
+    /* display: inline; */
+    color: white;
+}
+
+.pictures{
+    max-width: 100%;
+    width: 100%;
+    height: 370px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x:scroll; 
+    scroll-behavior:smooth;
+    gap: 1.4rem;
+    
+}
+.pictures::-webkit-scrollbar {
+      /*Set the width of the scrollbar*/
+    height: 1px;
+    
+}
+
+.pictures::-webkit-scrollbar-thumb {
+    background-color:black; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+}
+
+.pictures::-webkit-scrollbar-track {
+    background-color: black; /* Set the color of the scrollbar track */
+}
+.pictures img{
+    height: 300px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+
+.images{
+    height: 300px;
+    width: 210px;
+    margin-top: 1.2rem;
+}
+
+.footer{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+#menu-bar{
+    display: none;
+}
+.options-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:2976px) {
+
+    .navicons{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 2rem;
+    }
+    
+    .bar{
+        width: 100%;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:1310px) {
+    #menu-bar{
+        display: block;
+    }
+    .options-bar{
+        display: none;
+    }
+    .navicons{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    #menu-bar{
+        display: block;
+    }
+    .options-bar{
+        display: none;
+    }
+    .images{
+        height: 250px;
+        width: 150px;
+        margin-top: 1.5rem;
+    }
+    .pictures{
+        max-width: 100%;
+        width: 100%;
+        height: 330px;
+        display: grid;
+        grid-auto-flow: column;
+        overflow-x:scroll; 
+        scroll-behavior:smooth;
+        gap: 1.2rem;
+        
+    }
+    .pictures img{
+        height: 250px;
+        width: 150px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width:484px) {
+    #menu-bar{
+        display: block;
+    }
+    .options-bar{
+        display: none;
+    }
+    
+    .images{
+        height: 250px;
+        width: 150px;
+        margin-top: 1.5rem;
+    }
+    .pictures{
+        max-width: 100%;
+        width: 100%;
+        height: 330px;
+        display: grid;
+        grid-auto-flow: column;
+        overflow-x:scroll; 
+        scroll-behavior:smooth;
+        gap: 1.2rem;
+        
+    }
+    .pictures img{
+        height: 250px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    #world, #discord{
+        display: none;
+    }
+    .heading div{
+        display: inline-block;
+        gap: 1rem;
+        height:20px;
+        width: 8px;
+        background-color: rgb(238, 163, 23);
+        border-radius: 10px;
+    }
+    .heading p{
+        font-size: 20px;
+        /* display: inline; */
+        color: white;
+    }
+    .footer{
+        width: 100%;
+        color: white;
+        /* display: flex;
+        justify-content: space-between; */
+        margin-top: 5rem;
+        font-size: smaller;
+    }
+}
