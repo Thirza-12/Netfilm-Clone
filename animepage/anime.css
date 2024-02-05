@@ -167,17 +167,23 @@ a{
     }
 }
 @media screen and (max-width:500px) {
+    .container{
+        max-width: 98%;
+        margin: auto ;
+        padding: 1rem;
+    }
     .pictures{
         margin-top: 40px;
         max-width: 100%;
         height: 370px;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         /* grid-template-rows: auto; */
-        margin-left: 40px;
+        
         gap: 1.5rem;
         
     }
+
     #world,#discord{
         display: none;
     }
