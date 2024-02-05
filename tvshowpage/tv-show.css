@@ -175,8 +175,8 @@ a{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         /* grid-template-rows: auto; */
-        margin-left: 40px;
-        gap: 1.5rem;
+        margin-left: 45px;
+        gap: 1.8rem;
         
     }
     #world,#discord{
