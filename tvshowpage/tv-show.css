@@ -173,11 +173,21 @@ a{
         max-width: 100%;
         height: 370px;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         /* grid-template-rows: auto; */
-        margin-left: 45px;
-        gap: 1.8rem;
         
+        gap: 1.5rem;
+        
+    }
+    .pictures img{
+        height: 200px;
+        width: 170px;
+        border-radius: 10px;
+    }
+    .images{
+        height: 200px;
+        width: 170px;
+        margin-top: 2rem;
     }
     #world,#discord{
         display: none;
