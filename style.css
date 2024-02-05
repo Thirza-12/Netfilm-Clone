@@ -94,7 +94,7 @@ a{
     
 }
 .pictures::-webkit-scrollbar {
-      /*Set the width of the scrollbar*/
+      /*Set the height of the scrollbar*/
     height: 1px;
     
 }
