@@ -271,8 +271,8 @@ a{
         font-size: smaller;
     }
     input{
-        width: 120px;
-        height: 35px;
+        width: 150px;
+        height: 30px;
         padding-left: 40px;
         color: white;
         background: url(./images/search.png) no-repeat;
