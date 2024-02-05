@@ -270,4 +270,21 @@ a{
         margin-top: 5rem;
         font-size: smaller;
     }
+    input{
+        width: 120px;
+        height: 35px;
+        padding-left: 40px;
+        color: white;
+        background: url(./images/search.png) no-repeat;
+        background-size: 23px;
+        background-position-x:0.5rem;
+        background-position-y: 0.1rem;
+        
+        border: 0.1px solid white;
+        
+    }
+    input:focus{
+        border:none;
+        outline: 2px solid orange;
+    }
 }
