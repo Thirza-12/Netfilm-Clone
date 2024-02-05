@@ -168,11 +168,10 @@ a{
     }
 }
 @media screen and (max-width:500px) {
-        .container{
-        /* height: 140vh; */
-        max-width: 99%;
-/*         margin: auto ; */
-/*         padding: 2rem; */
+    .container{
+    max-width: 98%;
+    margin: auto ;
+    padding: 1rem;
     }
     .pictures{
         margin-top: 40px;
