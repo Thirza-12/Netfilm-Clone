@@ -18,6 +18,22 @@
 h1{
    display: inline ;
 }
+input{
+    width: 200px;
+    height: 30px;
+    padding-left: 40px;
+    color: white;
+    background: url(./images/search.png) no-repeat scroll;
+    background-size: 23px;
+    background-position-x:0.5rem;
+    background-position-y: 0.1rem;
+    border: 0.1px solid white;
+    
+}
+input:focus{
+    border:none;
+    outline: 2px solid orange;
+}
 .header{
     width: 100%;
     display: flex; 
@@ -211,5 +227,22 @@ a{
     }
     .options-bar{
         display: none;
+    }
+    input{
+        width: 150px;
+        height: 30px;
+        padding-left: 40px;
+        color: white;
+        background: url(./images/search.png) no-repeat;
+        background-size: 23px;
+        background-position-x:0.5rem;
+        background-position-y: 0.1rem;
+        
+        border: 0.1px solid white;
+        
+    }
+    input:focus{
+        border:none;
+        outline: 2px solid orange;
     }
 }
