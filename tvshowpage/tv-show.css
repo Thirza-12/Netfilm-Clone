@@ -24,7 +24,7 @@ input{
     height: 30px;
     padding-left: 40px;
     color: white;
-    background: url(./images/search.png) no-repeat scroll;
+    background: url(../images/search.png) no-repeat scroll;
     background-size: 23px;
     background-position-x:0.5rem;
     background-position-y: 0.1rem;
@@ -222,7 +222,7 @@ a{
         height: 30px;
         padding-left: 40px;
         color: white;
-        background: url(./images/search.png) no-repeat;
+        background: url(../images/search.png) no-repeat;
         background-size: 23px;
         background-position-x:0.5rem;
         background-position-y: 0.1rem;
