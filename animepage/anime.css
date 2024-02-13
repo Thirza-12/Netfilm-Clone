@@ -208,7 +208,7 @@ a{
     .images{
         height: 200px;
         width: 150px;
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
     #world,#discord{
         display: none;
