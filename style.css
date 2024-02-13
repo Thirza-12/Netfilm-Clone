@@ -287,4 +287,10 @@ a{
         border:none;
         outline: 2px solid orange;
     }
+    .bar{
+        width: 100%;
+        margin-top: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+    }
 }
