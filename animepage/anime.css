@@ -202,13 +202,13 @@ a{
     }
     .pictures img{
         height: 200px;
-        width: 170px;
+        width: 150px;
         border-radius: 10px;
     }
     .images{
         height: 200px;
-        width: 170px;
-        margin-top: 2rem;
+        width: 150px;
+        margin-top: 1rem;
     }
     #world,#discord{
         display: none;
